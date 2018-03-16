@@ -49,7 +49,7 @@ try:
     # dr.switch_to.default_content()
     dr.switch_to.parent_frame()
     while(1):
-        dr.find_element_by_xpath("//*[@id='main-container']/div[2]/div[4]/div[2]/div[1]/textarea").send_keys("hi阿尤谁")
+        dr.find_element_by_xpath("//*[@id='main-container']/div[2]/div[4]/div[2]/div[1]/textarea").send_keys("还有谁")
         time.sleep(5)
         dr.find_element_by_xpath("//*[@id='main-container']/div[2]/div[4]/div[2]/div[2]").click()
     dr.quit()
